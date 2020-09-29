@@ -1,0 +1,18 @@
+{
+  "name": "@zk/vscode-portable-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "package": "./index.js"
+  },
+  "scripts": {
+    "start": "cls & node index.js"
+  },
+  "keywords": [],
+  "author": "Zark Khullah",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-zk": "^1.0.3"
+  }
+}
