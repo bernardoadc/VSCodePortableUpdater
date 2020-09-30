@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type":"commonjs",
   "bin": {
     "package": "./index.js"
   },
   "scripts": {
     "lint": "eslint --fix -f compact --ignore-path .gitignore .",
-    "start": "cls & node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Zark Khullah",
   "license": "ISC",
   "devDependencies": {
     "eslint-config-zk": "^1.0.3"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "fs-extra": "^9.0.1"
   }
 }
