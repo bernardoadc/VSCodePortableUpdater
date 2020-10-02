@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"commonjs",
+  "type": "commonjs",
   "bin": {
-    "package": "./index.js"
+    "cpupd": "./index.js"
   },
   "scripts": {
     "lint": "eslint --fix -f compact --ignore-path .gitignore .",
