@@ -1,7 +1,7 @@
 {
   "name": "@zk/vscode-portable-updater",
   "version": "1.0.0",
-  "description": "",
+  "description": "VSCode Portable Updater",
   "main": "index.js",
   "type": "commonjs",
   "bin": {
