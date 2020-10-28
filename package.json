@@ -1,11 +1,11 @@
 {
   "name": "@zk/vscode-portable-updater",
   "version": "1.0.0",
-  "description": "",
+  "description": "VSCode Portable Updater",
   "main": "index.js",
-  "type":"commonjs",
+  "type": "commonjs",
   "bin": {
-    "package": "./index.js"
+    "codeupd": "./index.js"
   },
   "scripts": {
     "lint": "eslint --fix -f compact --ignore-path .gitignore .",
