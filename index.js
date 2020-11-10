@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-// import updater from './lib/updater'
 const updater = require('./lib/updater')
 
-updater().then((status) => process.exit())
+const fileAlreadyDownloaded = process.argv[2]
+updater(fileAlreadyDownloaded).then((status) => process.exit())
