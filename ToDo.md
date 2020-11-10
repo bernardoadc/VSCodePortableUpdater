@@ -1,5 +1,5 @@
 - manager = close vscode, call updater, reopen vscode with last projects open
 -  download com proxy
 -  function-alizar tudo
--  console.log os steps
 -  detectar passos anteriores nao completados? por ex existencia de pasta old (q vai dar problema), ou se parou em new-tmp pode continuar dali
+- get path of baseDir (check if %code%)
