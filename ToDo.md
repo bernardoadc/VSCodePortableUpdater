@@ -1,5 +1,5 @@
-- manager = close vscode, call updater, reopen vscode with last projects open
--  download com proxy
--  function-alizar tudo
--  detectar passos anteriores nao completados? por ex existencia de pasta old (q vai dar problema), ou se parou em new-tmp pode continuar dali
+- detectar passos anteriores nao completados! por ex existencia de pasta old (q vai dar problema), ou se parou em new-tmp pode continuar dali
+- function-alizar tudo
 - get path of baseDir (check if %code%)
+- manager = close vscode, call updater, reopen vscode with last projects open
+- download com proxy

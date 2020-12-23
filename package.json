@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint --fix -f compact --ignore-path .gitignore .",
-    "start": "node index.js"
+    "start": "node index.js %*"
   },
   "keywords": [],
   "author": "Zark Khullah",
